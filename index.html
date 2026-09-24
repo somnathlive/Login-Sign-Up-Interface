@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="login-card">
+        <!-- header -->
+        <div class="login-header">
+            <h1>Welcome Back</h1>
+            <p>Login to your account</p>
+        </div>
+
+        <!-- form -->
+        <form class="login-form" id="loginForm">
+            <!-- email -->
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="email" placeholder="mail@example.com" required />
+                </div>
+            </div>
+
+            <!-- password -->
+            <div class="form-group">
+                <label for="password">Password :</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Password" required />
+                </div>
+            </div>
+
+            <!-- options -->
+            <div class="options-row">
+                <label class="remember-me">
+                    <input type="checkbox" checked /> Remember me
+                </label>
+                <a href="#" class="forgot-link">Forgot password?</a>
+            </div>
+
+            <!-- login button -->
+            <button type="submit" class="btn-login">
+                <i class="fas fa-arrow-right-to-bracket" style="margin-right: 0.5rem;"></i> Login
+            </button>
+        </form>
+
+        <!-- divider -->
+        <div class="divider">or continue with</div>
+
+        <!-- social buttons -->
+        <div class="social-buttons">
+            <a href="#" class="btn-social google">
+                <i class="fab fa-google"></i> Google
+            </a>
+            <a href="#" class="btn-social github">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+
+        <!-- sign up -->
+        <div class="signup-row">
+            Don't have an account? <a href="#" class="show-signup">Sign up</a>
+        </div>
+    </div>
+
+        <!-----sign up form -------------->
+    
+    <div class="login-card hidden" id="signupCard">
+        <!-- header -->
+        <div class="login-header">
+            <h1>Create your account</h1>
+            <p>Sign up to your account</p>
+        </div>
+
+        <!-- form -->
+        <form class="login-form" id="signupForm">
+
+            <!-- email -->
+            <div class="form-group">
+                <label for="fullName">Full Name :</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="fullName" placeholder="Full Name" required />
+                </div>
+            </div>
+
+            <!-- email -->
+            <div class="form-group">
+                <label for="signupEmail">Email :</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" id="signupEmail" placeholder="mail@example.com" required />
+                </div>
+            </div>
+
+            <!-- password -->
+            <div class="form-group">
+                <label for="signupPassword">Password :</label>
+                <div class="input-wrapper">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="signupPassword" placeholder="Password" required />
+                </div>
+            </div>
+
+            <!-- sign up button -->
+            <button type="submit" class="btn-login">
+                <i class="fas fa-arrow-right-to-bracket" style="margin-right: 0.5rem;"></i> Sign up
+            </button>
+        </form>
+
+        <!-- divider -->
+        <div class="divider">or continue with</div>
+
+        <!-- social buttons -->
+        <div class="social-buttons">
+            <a href="#" class="btn-social google">
+                <i class="fab fa-google"></i> Google
+            </a>
+            <a href="#" class="btn-social github">
+                <i class="fab fa-github"></i> GitHub        
+            </a>
+        </div>
+
+        <!-- Login -->
+        <div class="signup-row">
+            I already have an account? <a href="#" class="show-login">Login</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
