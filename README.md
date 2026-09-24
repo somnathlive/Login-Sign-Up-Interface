@@ -8,7 +8,7 @@ A sleek, responsive, and modern dual-card Authentication UI built with pure **HT
 
 | Login View | Sign-Up View |
 | :---: | :---: |
-| ![Login Form Screen](screenshort/login-screenshot.png) | ![Sign Up Form Screen](screenshort/signup-screenshot.png) |
+| ![Login Form Screen](screenshorts/login-screenshot.png) | ![Sign Up Form Screen](screenshorts/signup-screenshot.png) |
 
 ---
 
